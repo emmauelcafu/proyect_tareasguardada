@@ -1,0 +1,37 @@
+
+.div_cards{
+    background-color: rgb(19, 253, 253);
+    
+   
+   width: 300px;
+   height: 100px;
+   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+   padding: 10px;
+   margin: 10px 30px 10px 20px;
+
+}
+
+.div_cards:hover{
+    background-color: black;
+color: wheat;
+transition: 200ms;
+}
+
+
+.div_component{
+    display: flex;
+    /* justify-content:space-around ; */
+    flex-wrap: wrap;
+   align-content: center;
+   padding: 50px;
+   margin: 20px 20px 20px 10px ;
+
+  background-color: rebeccapurple;
+}
+
+.div_cards p {
+    text-align: center;
+    margin:0 ;
+    
+}
